@@ -4,6 +4,9 @@ export Date(year, month, day){
   Day = day;
 }
 
-export function age(a, b) {
-    return a + b;
+export function ageMercury(age) {
+  let ageInYears = parseInt(age);
+  let newAge = (ageInYears * .24);
+
+    return newAge;
 }
