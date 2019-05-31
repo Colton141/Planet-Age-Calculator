@@ -12,7 +12,7 @@ test('should return age on venus', () => {
     expect(ageVenus(15)).toBe(33);
 });
 
-test('should return age on mars', () => {
+test('should return age on mars x', () => {
     expect(ageVenus(15)).toBe(33);
 });
 

@@ -31,3 +31,31 @@ export function agejupiter(age) {
 
   return newAge;
 };
+
+export function agesaturn(age) {
+  let ageInYears = parseInt(age);
+  let newAge = (ageInYears * 11.86);
+
+  return newAge;
+};
+
+export function ageUranus(age) {
+  let ageInYears = parseInt(age);
+  let newAge = (ageInYears * 11.86);
+
+  return newAge;
+};
+
+export function ageNeptune(age) {
+  let ageInYears = parseInt(age);
+  let newAge = (ageInYears * 11.86);
+
+  return newAge;
+};
+
+export function agePluto(age) {
+  let ageInYears = parseInt(age);
+  let newAge = (ageInYears * 11.86);
+
+  return newAge;
+};
