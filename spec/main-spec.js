@@ -6,6 +6,8 @@ import { agePluto } from '../src/functions';
 import { ageSaturn } from '../src/functions';
 import { ageUranus } from '../src/functions';
 import { ageMercury } from '../src/functions';
+import { ageNeptune } from '../src/functions';
+import { ageJupiter } from '../src/functions';
 
 
 test('date object should build', () => {
@@ -21,6 +23,26 @@ test('should return age on venus', () => {
 
 test('should return age on mars x', () => {
     expect(ageMars(15)).toBe(33);
+});
+
+test('should return age on mars x', () => {
+    expect(ageSaturn(15)).toBe(33);
+});
+
+test('should return age on mars x', () => {
+    expect(ageUranus(15)).toBe(33);
+});
+
+test('should return age on mars x', () => {
+    expect(ageJupiter(15)).toBe(33);
+});
+
+test('should return age on mars x', () => {
+    expect(agePluto(15)).toBe(33);
+});
+
+test('should return age on mars x', () => {
+    expect(ageNeptune(15)).toBe(33);
 });
 
 test('adds 5 + 5 to equal 10', () => {
