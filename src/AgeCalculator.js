@@ -17,3 +17,10 @@ export function ageVenus(age) {
 
   return newAge;
 };
+
+export function ageMars(age) {
+  let ageInYears = parseInt(age);
+  let newAge = (ageInYears * 1.88);
+
+  return newAge;
+};
