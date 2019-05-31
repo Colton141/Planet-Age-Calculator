@@ -25,14 +25,14 @@ export function ageMars(age) {
   return newAge;
 };
 
-export function agejupiter(age) {
+export function ageJupiter(age) {
   let ageInYears = parseInt(age);
   let newAge = (ageInYears * 11.86);
 
   return newAge;
 };
 
-export function agesaturn(age) {
+export function ageSaturn(age) {
   let ageInYears = parseInt(age);
   let newAge = (ageInYears * 11.86);
 
