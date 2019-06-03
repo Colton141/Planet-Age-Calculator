@@ -17,7 +17,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Template',
+            title: 'Galatic Calculator',
             template: './src/index.html',
             inject: 'body'
         }),

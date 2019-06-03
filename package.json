@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "Age-finder",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -9,7 +9,7 @@
     "buildDist": "webpack --mode production",
     "prestart": "webpack",
     "start": "webpack-dev-server --open",
-    "lint": "eslint src/**/*.js & exit 0"
+    "lint": "eslint src/*.js & exit 0"
   },
   "author": "",
   "license": "ISC",
